@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression tests" duration-ms="110" started-at="2021-05-12T21:58:34 IST" finished-at="2021-05-12T21:58:34 IST">
+    <groups>
+      <group name="grp1">
+        <method signature="FirstTest.ctest(java.lang.String)[pri:-1, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="ctest" class="com.vikrant.test.framework.hybrid.tests.FirstTest"/>
+      </group> <!-- grp1 -->
+      <group name="grp2">
+        <method signature="FirstTest.btest(java.lang.String, java.lang.String)[pri:0, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="btest" class="com.vikrant.test.framework.hybrid.tests.FirstTest"/>
+      </group> <!-- grp2 -->
+      <group name="grp3">
+        <method signature="FirstTest.atest()[pri:0, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="atest" class="com.vikrant.test.framework.hybrid.tests.FirstTest"/>
+      </group> <!-- grp3 -->
+    </groups>
+    <test name="Scenario 1" duration-ms="110" started-at="2021-05-12T21:58:34 IST" finished-at="2021-05-12T21:58:34 IST">
+      <class name="com.vikrant.test.framework.hybrid.tests.FirstTest">
+        <test-method status="PASS" signature="atest()[pri:0, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="atest" duration-ms="13" started-at="2021-05-12T21:58:34 IST" finished-at="2021-05-12T21:58:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+        <test-method status="PASS" signature="btest(java.lang.String, java.lang.String)[pri:0, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="btest" duration-ms="1" started-at="2021-05-12T21:58:34 IST" data-provider="dataSource1" finished-at="2021-05-12T21:58:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="btest(java.lang.String, java.lang.String)[pri:0, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="btest" duration-ms="0" started-at="2021-05-12T21:58:34 IST" data-provider="dataSource1" finished-at="2021-05-12T21:58:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vikrant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="ctest(java.lang.String)[pri:-1, instance:com.vikrant.test.framework.hybrid.tests.FirstTest@7823a2f9]" name="ctest" duration-ms="0" depends-on-groups="grp2" started-at="2021-05-12T21:58:34 IST" finished-at="2021-05-12T21:58:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikrant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+      </class> <!-- com.vikrant.test.framework.hybrid.tests.FirstTest -->
+    </test> <!-- Scenario 1 -->
+  </suite> <!-- Regression tests -->
+</testng-results>

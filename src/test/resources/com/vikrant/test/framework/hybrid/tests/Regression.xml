@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "Regression tests">
+	<test name = "Scenario 1" parallel="classes" thread-count="2">
+		<parameter name="name" value="vikrant" />
+		<groups>
+		<dependencies>
+			<group name = "grp1" depends-on="grp2" />
+		</dependencies>
+		</groups>		
+		<classes>
+			<class name = "com.vikrant.test.framework.hybrid.tests.FirstTest"></class>
+		</classes>		
+	</test>
+</suite>
